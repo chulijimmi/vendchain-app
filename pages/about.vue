@@ -9,7 +9,7 @@ if (route.params) {
 }
 </script>
 <template>
-    <div>
+    <div class="bg-primary/50 p-5">
         <h1>This is about page</h1>
     </div>
 </template>

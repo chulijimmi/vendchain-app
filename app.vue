@@ -1,7 +1,9 @@
+<script setup lang="ts">
+const layout = "desktop-default";
+</script>
+
 <template>
-  <div>
-    <AppHeader />
+  <NuxtLayout :name="layout">
     <NuxtPage />
-    <AppFooter />
-  </div>
+  </NuxtLayout>
 </template>
